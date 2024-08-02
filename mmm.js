@@ -1,4 +1,3 @@
-function yourFunction() {
 var static_page_text = $.trim($(".static_page .post-body").text());
         if ("[sitemap]" === static_page_text) {
             var postbody = $(".static_page .post-body");
@@ -1034,4 +1033,3 @@ document.body.classList.add('riga');}
 window.addEventListener('scroll', addClassOnScroll);
 var getFontAosame=document.createElement("link");
 getFontAosame.rel="stylesheet",getFontAosame.type="text/css",getFontAosame.href="https://raw.githack.com/shrkt-smile/smile/main/min.css",document.querySelector("body").appendChild(getFontAosame);
-}
